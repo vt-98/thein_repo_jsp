@@ -1,0 +1,115 @@
+# =========================================================
+# Java Project .gitignore
+# Eclipse / IntelliJ / VSCode / Maven / Gradle ����
+# =========================================================
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.ctxt
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM Crash Logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Build Directory
+# =========================
+/target/
+/build/
+/bin/
+/out/
+
+# =========================
+# Maven
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Eclipse
+# =========================
+.metadata/
+Servers/
+.classpath
+.project
+.settings/
+.loadpath
+.recommenders/
+
+# Spring Tool Suite
+.springBeans4
+
+# Code Recommenders
+.recommenders/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+
+# =========================
+# Mac / Linux / Windows
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+
+# =========================
+# Node (React/Vue ���� ��)
+# =========================
+node_modules/
+
+# =========================
+# Lombok
+# =========================
+.lombok/
+
+# =========================
+# Temp Files
+# =========================
+*.tmp
+*.temp
+Lec_0604/src/com/thein/proj1/Account.java
+Lec_0604/src/com/thein/proj1/MyAccount.java
+Lec_0604/src/com/thein/proj1/Ex1_MyMain1.java
