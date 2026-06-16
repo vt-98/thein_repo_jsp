@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Insert title here</title>
+  </head>
+  <body>
+    <h2>forward 액션 태그</h2>
+    <jsp:include page="4-2_include_date.jsp" />
+    <p>----------------</p>
+  </body>
+</html>
