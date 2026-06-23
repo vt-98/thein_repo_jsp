@@ -10,7 +10,7 @@ request.setCharacterEncoding("UTF-8");
 String name = request.getParameter("name");
 String message = request.getParameter("message");
 
-String url = "jdbc:postgresql://localhost:5432/guestbook";
+String url = "jdbc:postgresql://localhost:5432/hrd";
 String dbUser = "postgres";
 String dbPass = "1234";
 

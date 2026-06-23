@@ -41,7 +41,7 @@
   	
   	<!--  DB에서 목록 불러오기 -->
   	<%
-  	String url = "jdbc:postgresql://localhost:5432/guestbook";
+  	String url = "jdbc:postgresql://localhost:5432/hrd";
   	String dbUser = "postgres";
   	String dbPass = "1234";
   	
