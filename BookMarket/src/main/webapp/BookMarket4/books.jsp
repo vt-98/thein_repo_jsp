@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import="dto.Book"%>
+<%@ page import="rsrc4.DTOBook"%>
 <%@ page import="java.util.ArrayList"%>
-<jsp:useBean id="bookDAO" class="dao.BookRepository" scope="session"/>
+<jsp:useBean id="bookDAO" class="rsrc4.DAOBookRepository" scope="session"/>
 <html>
   <head>
   	<title>도서 목록</title>
@@ -19,13 +19,13 @@
       </div>
       
       <%
-       	ArrayList<Book> listOfBooks = bookDAO.getAllBooks();
-      %>
+            ArrayList<DTOBook> listOfBooks = bookDAO.getAllBooks();
+            %>
 		
       <div class="row align-items-md-stretch text-center">
       	<%
-      		for (int i=0; i < listOfBooks.size(); i++) {
-      			Book book=listOfBooks.get(i);
+      	for (int i=0; i < listOfBooks.size(); i++) {
+      	      	      			DTOBook book=listOfBooks.get(i);
       	%>
         <div class="col-md-4">
         	<div class="h-100 p-2">

@@ -1,8 +1,8 @@
-package dto;
+package rsrc4;
 
 import java.io.Serializable;
 
-public class Book implements Serializable {
+public class DTOBook implements Serializable {
 	private static final long serialVersionUID = 12345678910727L;
 	
 	private String bookId;
@@ -16,11 +16,11 @@ public class Book implements Serializable {
 	private String releaseDate;
 	private String condition;
 	
-	public Book() {
+	public DTOBook() {
 		super();
 	}
 
-	public Book(String bookId, String name, int unitPrice) {
+	public DTOBook(String bookId, String name, int unitPrice) {
 		super();
 		this.setBookId(bookId);
 		this.setName(name);
